@@ -84,4 +84,15 @@ a. The micropos will successfully created with the text content
 a. The application answer with an error massege "Content is too long (maximum is 140 characters)"
 
 3.6 (For readers who know CSS) Use your browser’s HTML inspector to determine the CSS id of the error message produced by the previous exercise.
-the id error_explenation is render when the error ocurrs 
+a. the id error_explenation is render when the error ocurrs
+
+
+3.7. Edit the user show page to display the content of the user’s first micropost. (Use your technical sophistication (Box 1.2) to guess the syntax based on the other content in the file.) Confirm by visiting /users/1 that it worked.
+a. Edit the user show page with adding this code <%= @user.microposts.first.content %>
+
+3.8. The code in Listing 2.18 shows how to add a validation for the presence of micropost content in order to ensure that microposts can’t be blank. Verify that you get the behavior shown in Figure 2.17.
+a. by adding this to the micropost.rb file "presence: true" code it will give us the behavior of not put blank content on it
+
+3.9. Update Listing 2.19 by replacing FILL_IN with the appropriate code to validate the presence of name and email attributes in the User model (Figure 2.18).
+a. by adding this to the user.rb file  validates :name, length: { maximum: 40 } , presence: true
+validates :email, length: { maximum: 45 }, presence: true code it will give us the behavior of not put empty content on it
