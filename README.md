@@ -96,3 +96,9 @@ a. by adding this to the micropost.rb file "presence: true" code it will give us
 3.9. Update Listing 2.19 by replacing FILL_IN with the appropriate code to validate the presence of name and email attributes in the User model (Figure 2.18).
 a. by adding this to the user.rb file  validates :name, length: { maximum: 40 } , presence: true
 validates :email, length: { maximum: 45 }, presence: true code it will give us the behavior of not put empty content on it
+
+3.10. By examining the contents of the Application controller file, find the line that causes ApplicationController to inherit from ActionController::Base.
+a. We can find this line in application_controller.rb
+
+3.11. Is there an analogous file containing a line where ApplicationRecord inherits from ActiveRecord::Base? Hint: It would probably be a file called something like application_record.rb in the app/models directory.
+a. yes it is in the application_record.rb file within the models folder
