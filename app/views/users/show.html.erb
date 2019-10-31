@@ -12,7 +12,9 @@
 
 <p>
   <strong>First Post</strong>
-  <%= @user.microposts.first.content %>
+  <%= if @user.microposts.first
+      @user.microposts.first.content end %>
+  <h6>No content </h6>
 
 </p>
 
