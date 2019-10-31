@@ -1,13 +1,23 @@
-# README
+# Microverse Project Title - Getting Your Feet Wet [Collaborative Project]
+Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Introduction.
+This project is the first approach at using the Ruby on Rails framework. Following instructions from The Ruby on Rails tutorial, you will build a simple application that allows to create users and edit their information as well as create posts and edit them.
 
-Things you may want to cover:
+## Microverse Adjustments
+1. Skip the entire “Blogger Tutorial” in the point 2 of the assignments.
+
+2. Skip section 1.4 “Version control with Git” in “the Rails Tutorial” in the point 2 of the assignments (but read the rest of the Chapter 1 Rails Tutorial).
+
+3. Skip point 3 of the assignments.
 
 * Ruby version
+rbenv 2.6.5
 
 * System dependencies
+Rails 6.0.0
+Yarn 1.19.1
+Ubuntu 18.04 & below
 
 * Configuration
 
@@ -16,14 +26,24 @@ Things you may want to cover:
 * Database initialization
 
 * How to run the test suite
+1. Create new users
+2. Create new microsposts entry
 
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
+1. Open the terminal.
+2. Enter git clone https://github.com/jcromerohdz/toy_app
+3. Navigate to the cloned repository.
+4. Enter command "rails server" to start the app
 
 * ...
 
-Exercises
+## Instructions
+
+1. Read and follow along with [Chapter 2 of The Rails Tutorial by Michael Hartl](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/toy_app), where you will create a very basic Ruby on Rails application. Michael takes steps to standardize the development process by partnering with Cloud 9, but if you’ve done the installations listed above, you should be good to go on your own machine. Michael also favors bitbucket over GitHub because bitbucket has free private repos. However, GitHub recently announced that they now also offer free private repos. If you choose to make your repositories private, keep in mind that your solution will not be able to be viewed by others.
+
+## Odin Project Exercises
 
 1.1. (For readers who know CSS) Create a new user, then use your browser’s HTML inspector to determine the CSS id for the text “User was successfully created.” What happens when you refresh your browser?
 CSS ID = "Notice". The notice disappears
@@ -64,10 +84,6 @@ end
 2.3 What is the name of the view file for the user edit page?
 edit.html.erb
 
-
-
-__________________________________
-
 3.1. For readers who know CSS) Create a new micropost, then use your browser’s HTML inspector to determine the CSS id for the text “Micropost was successfully created.” What happens when you refresh your browser?
 a. the notice selector will disapear
 
@@ -102,3 +118,13 @@ a. We can find this line in application_controller.rb
 
 3.11. Is there an analogous file containing a line where ApplicationRecord inherits from ActiveRecord::Base? Hint: It would probably be a file called something like application_record.rb in the app/models directory.
 a. yes it is in the application_record.rb file within the models folder
+
+## Source
+https://www.theodinproject.com/courses/ruby-on-rails/lessons/getting-your-feet-wet.
+
+#Github Repo
+https://github.com/geraldgsh/tic-tac-toe/
+
+## Contributor
+[Gerald Goh](https://github.com/geraldgsh)
+[Christian Romero](https://github.com/jcromerohdz)
