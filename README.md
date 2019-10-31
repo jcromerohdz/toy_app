@@ -11,10 +11,14 @@ This project is the first approach at using the Ruby on Rails framework. Followi
 
 3. Skip point 3 of the assignments.
 
+
+
 * Ruby version
+
 rbenv 2.6.5
 
 * System dependencies
+
 Rails 6.0.0
 Yarn 1.19.1
 Ubuntu 18.04 & below
@@ -38,6 +42,8 @@ Ubuntu 18.04 & below
 4. Enter command "rails server" to start the app
 
 * ...
+
+
 
 ## Instructions
 
@@ -121,6 +127,9 @@ a. yes it is in the application_record.rb file within the models folder
 
 ## Source
 https://www.theodinproject.com/courses/ruby-on-rails/lessons/getting-your-feet-wet.
+
+## Live Link
+https://hwtoyapp.herokuapp.com/
 
 #Github Repo
 https://github.com/geraldgsh/tic-tac-toe/
