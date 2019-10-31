@@ -68,15 +68,20 @@ edit.html.erb
 
 __________________________________
 
-1. For readers who know CSS) Create a new micropost, then use your browser’s HTML inspector to determine the CSS id for the text “Micropost was successfully created.” What happens when you refresh your browser?
+3.1. For readers who know CSS) Create a new micropost, then use your browser’s HTML inspector to determine the CSS id for the text “Micropost was successfully created.” What happens when you refresh your browser?
 a. the notice selector will disapear
 
-2. Try to create a micropost with empty content and no user id.
+3.2. Try to create a micropost with empty content and no user id.
 a. The micropost will succesfully created
 
-3. Try to create a micropost with over 140 characters of content (say, the first paragraph from the Wikipedia article on Ruby).
+3.3. Try to create a micropost with over 140 characters of content (say, the first paragraph from the Wikipedia article on Ruby).
 
 a. The micropos will successfully created with the text content
 
-4. Destroy the microposts from the previous exercises.
+3.4. Destroy the microposts from the previous exercises.
 
+3.5. Try to create a micropost with the same long content used in a previous exercise (Section 2.3.1.1). How has the behavior changed?
+a. The application answer with an error massege "Content is too long (maximum is 140 characters)"
+
+3.6 (For readers who know CSS) Use your browser’s HTML inspector to determine the CSS id of the error message produced by the previous exercise.
+the id error_explenation is render when the error ocurrs 
