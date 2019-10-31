@@ -190,7 +190,12 @@ https://www.theodinproject.com/courses/ruby-on-rails/lessons/getting-your-feet-w
 
 ## Github Repo
 
-https://github.com/geraldgsh/tic-tac-toe/
+https://github.com/jcromerohdz/toy_app
+
+
+## Live Link
+
+https://hwtoyapp.herokuapp.com/
 
 
 ## Contributor
